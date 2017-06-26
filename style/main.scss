@@ -1,27 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 
-body{
-    font-family: 'Open Sans', sans-serif;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background:#FFA5A5;
-    margin-top: 30vh;
-    color: #fff;
-    font-size: 1.6rem;
-    }
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+}
 
-
-    .link{
-        text-decoration: none;
-        color: #FF4343;
-    }
-
-    .author{
-        font-size: 1.2rem;
-        color: #EEEEEF;
-    }
-
-
-   
+.header{
+  height: 40vh;
+  background-image:  url('./img/header.jpg');
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+}
