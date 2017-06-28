@@ -29,6 +29,29 @@ body{
 	width: 100%;
 }
 
+
+.header-top-min{
+	height: 20vh;
+	background: #0E65E5;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid #C0BDC1
+
+}
+
+.header-top-min h2{
+	display: none;
+}
+
+.header-top-min .search-container{
+	width: 100%;
+}
+
 .search-container{
     border:1px solid #C0BDC1;
     display:inline-block;
@@ -41,7 +64,17 @@ body{
 .searchBar{
 	display: flex;
 	justify-content: center;
-	margin-top: 5% !important;
+	margin-top: 2% !important;
+	flex-wrap: wrap;
+}
+
+.searchBar-heading{
+ 	text-align: center;
+	margin-top: 4vh !important;
+	font-family: 'Open Sans', sans-serif;
+	color: #242525;
+	padding: 20px;
+	font-size: 3rem;
 }
 
 .search-container{
