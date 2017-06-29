@@ -1,13 +1,17 @@
 import React , { Component } from 'react';
 
+const ResultsBody = (props) => {
+  return(
+  <div className="media">
+  <div className="media-left">
+      <img className="media-object" src="..." alt="..." />
 
-export default class ResultsBody extends Component{ 
-  render(){
-    return(
-       <div>
-          <h1>Listed content goes here</h1>
-       </div>
-    )
-  }
-
+  </div>
+  <div className="media-body">
+    <h4 className="media-heading">{props.job}</h4>
+  </div>
+</div>
+)
 }
+
+export default ResultsBody

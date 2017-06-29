@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
+import jobsListReducer from './jobs'
 
-
-const Reducer = combineReducers({
-
+const rootReducer = combineReducers({
+  jobs_list: jobsListReducer
 });
 
 
-export default Reducer
+export default rootReducer

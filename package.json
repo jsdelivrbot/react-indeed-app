@@ -10,6 +10,7 @@
   "author": "Mateusz Perlak",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.16.2",
     "node-sass": "^4.5.3",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
@@ -35,5 +36,5 @@
     "url-loader": "^0.5.9",
     "webpack": "^2.3.3",
     "webpack-dev-server": "^2.4.2"
-}
+  }
 }

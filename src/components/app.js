@@ -6,7 +6,7 @@ import Header from './header'
 import SearchBar from './searchBar'
 
 import HeaderSearch from './containers/headerSearch';
-
+import SearchResults from './containers/searchResults'
 
 class App extends Component{
   constructor(props){
@@ -35,6 +35,7 @@ class App extends Component{
         return (
           <div>
             <HeaderSearch City={this.state.city} onClickChangeState={() => this.onSubmitChange()} Country={this.state.country} Job={this.state.job} onChangeJob={ event => this.onInputChangeJob(event) }  onChangeCity={event => this.onInputChangeCity(event)} onChangeCountry={event => this.onInputChangeCountry(event)}/>
+            <SearchResults job={this.state.job} city={this.state.city} country={this.state.country} />
         </div>
         )
       }else{
@@ -56,6 +57,7 @@ class App extends Component{
   }
 
 }
+
 
 
 
