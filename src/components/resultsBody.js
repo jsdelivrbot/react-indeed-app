@@ -1,17 +1,17 @@
 import React , { Component } from 'react';
 
 const ResultsBody = (props) => {
-  return(
-  <div className="media">
-  <div className="media-left">
-      <img className="media-object" src="..." alt="..." />
 
-  </div>
-  <div className="media-body">
-    <h4 className="media-heading">{props.job}</h4>
+  return(
+<div>
+    <div className="media" onClick={() => props.onClickAction(props.itemA)}>
+    <div className="media-body">
+      <h4 className="media-heading"> {props.job} , {props.city} </h4>
+    </div>
   </div>
 </div>
 )
 }
+
 
 export default ResultsBody
