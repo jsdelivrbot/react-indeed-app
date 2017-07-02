@@ -3,6 +3,9 @@ import { connect } from 'react-redux';
 import * as actions from '../../actions';
 import Header from '../header'
 import SearchBar from '../searchBar'
+import AboutComponent from '../aboutComponent'
+import FooterComponent from '../FooterComponent'
+import IconsList from '../iconsList'
 
 class MainContainer extends Component{
 
@@ -22,7 +25,11 @@ class MainContainer extends Component{
           onChangeGetCountry={(event) => this.props.getCountry(event)}
           onSubmitChangeFetch={() => this.showData()}
          />
+          <IconsList />
+         <AboutComponent />
+         <FooterComponent />
     </div>
+
     )
   }
 }
