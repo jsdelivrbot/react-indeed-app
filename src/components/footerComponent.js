@@ -5,7 +5,7 @@ import HearthFooter from './hearthFooter'
 const FooterComponent = () => {
   return(
     <div className="footer">
-        Created with <HearthFooter /> By Mateusz Perlak
+        Made with <HearthFooter /> in JavaScript 
     </div>
   )
 }
