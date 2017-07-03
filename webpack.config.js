@@ -7,9 +7,9 @@ const webpack = require('webpack');
 
 module.exports = {
     entry: './src/index.js',
-      output: {
-    path: __dirname,
-    filename: './dist/app.bundle.js'
+    output: {
+  path: __dirname,
+  filename: './dist/app.bundle.js'
   },
     module:{
         rules: [
